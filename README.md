@@ -1,2 +1,3 @@
-# Final_Project_Salary_Prediction
-Data Analyst Job Salary Predictions
+# Final_Project
+
+Data Analyst Job Salary Analysis
