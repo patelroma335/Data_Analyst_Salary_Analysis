@@ -81,6 +81,33 @@ body {
     background-color: rgb(255, 255, 255);
   
   }
+  .plot-header {
+    padding-top: 15px; 
+    padding-left: 4px;
+    color: rgb(40, 164, 180);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+.table-content {
+  margin: 30px 10px 10px 10px;
+  border: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  background-color: white;
+}
+.table {
+  text-align: center;
+}
+
+
+.tablehead {
+  word-wrap: normal;
+}
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+  
   
   
 
