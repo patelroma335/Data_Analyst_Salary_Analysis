@@ -1,0 +1,112 @@
+/* Body */
+body {
+    background-color: #9ac2a3;
+    height: 700px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  /* Navbar */
+  .navbar {
+    max-height: 50px;
+  }
+  .navigation .navbar-brand {
+    color: rgb(31, 147, 182);
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: rgb(59, 231, 223);
+    font-family: Menlo, Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+    background-color: rgb(72, 228, 215);
+    font-size: 25px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: rgb(91, 233, 209);
+  }
+  .dropdown-item {
+    color: #9ac2a3;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #9ac2a3;
+  }
+  
+  .nav-link:hover {
+    background-color:#9ac2a3;
+   }
+  
+  .navbar-brand:hover {
+  color: #9ac2a3;
+  }
+  a {
+    color: rgb(3, 12, 12);
+    font-size: 15px;
+  }
+  
+  /* Images */
+  img{
+    width:100%;
+    height:100%;
+  }
+  .active, .panel:hover {
+    border-color:rgb(31, 147, 182);
+    border-style: solid;
+    
+  }
+ 
+  .pic { text-align: center;};
+  /* Title */
+  .title {
+    color: rgb(31, 147, 182);
+    font-family: Menlo, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  
+  /* Paragraph */
+  p {
+  color: rgb(40, 84, 228);
+  font-family: Menlo, Helvetica, sans-serif;
+  font-size: 16px;
+  }
+  
+  /* Box */
+  .box {
+    margin-top: 100px;
+    margin-bottom: 120px;
+    padding: 10px 30px 10px;
+    color: #060408;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  
+
+  
+  
+ /* Media Queries */
+  @media(max-width: 992px) {
+    .navbar-expand-lg {
+    background-color: #888888;
+    }
+    .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+    .navbar div {
+      margin: inherit;
+      background-color: rgb(44, 225, 238);
+    }
+    .navbar-brand {
+      padding: 10px;
+    }
+    button{
+      margin-right: 30px;
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+    }
+  }
